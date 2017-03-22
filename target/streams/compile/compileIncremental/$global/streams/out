@@ -1,0 +1,22 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/wdd/Desktop/Warehouse Login/app/controllers/LoginController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/wdd/Desktop/Warehouse Login/app/controllers/LoginController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/wdd/Desktop/Warehouse Login/app/controllers/LoginController.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/wdd/Desktop/Warehouse Login/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@480b75d2 directly...[0m
+[0m[[31merror[0m] [0m/home/wdd/Desktop/Warehouse Login/app/controllers/LoginController.java:73: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   method warehouseProducts()[0m
+[0m[[31merror[0m] [0m  location: variable AdminController of type controllers.ReverseAdminController[0m
+[0m[[31merror[0m] [0m            return redirect(controllers.routes.AdminController.warehouseProducts());[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) javac returned nonzero exit code[0m
